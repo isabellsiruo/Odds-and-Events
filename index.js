@@ -68,8 +68,8 @@ const state = {
   });
   
   //attach event listeners for sorting actions
-  document.getElementById("sortOne").addEventListener("click", moveOne); //move one number when "Sort 1" is clicked
-  document.getElementById("sortAll").addEventListener("click", moveAll); //move all numbers when "Sort All" is clicked
+  document.getElementById("sortOne").addEventListener("click", moveOne); //move one number when "sortOne" is clicked
+  document.getElementById("sortAll").addEventListener("click", moveAll); //move all numbers when "sortAll" is clicked
   
   //initial render to set up UI
   update(); //ensure UI is empty when page loads
